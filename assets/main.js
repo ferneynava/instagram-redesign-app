@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 import { TOKEN } from './Token.js'
 const BASE_API = 'https://graph.instagram.com/me'
-const ACCESS_TOKEN = 'IGQVJXU092bjN4R2VUMFprcWJMN0hMUXpHYzVoYnNfOEVfbG1sSVdabmVldWg5NFZAWbFpnbGxQOE5PLWl3YW1xRVRrOWxQbnRNMkFMcjJJd0U3akpvTzk3WE1JNE5mVXk1MFNvR193'
+const ACCESS_TOKEN = TOKEN
 
 const photoProfile = document.querySelector('.story')
 const username = document.querySelector('#username')
